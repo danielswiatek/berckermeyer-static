@@ -1,0 +1,219 @@
+html, body {
+   margin: 0;
+   padding: 0;
+   border: none;
+   height: 100%;
+}
+
+body {
+   width: 100%;
+   background: #FFFFFF;
+   font-size: 100%;
+}
+
+div, ul, ol, li, img, h1, p, span, a {
+   margin: 0;
+   padding: 0;
+   border: none;
+}
+
+img, h1, p { display: block; }
+
+a { text-decoration: none; }
+
+/* =============================================================== */
+/* =============================================================== */
+
+#vcenter {
+   visibility: hidden;
+   width: 100%;
+   height: 50%;
+   margin-top: -355px;
+   float: left;
+}
+
+#wrapper {
+   position: relative;
+   width: 1010px;
+   height: 710px;
+   clear: both;
+   margin: 0 auto;
+   background: url(img/win_bg.gif) no-repeat;
+}
+
+#container {
+   position: absolute;
+   top: 12px;
+   left: 12px;
+   width: 986px;
+   height: 686px;
+}
+
+/* =============================================================== */
+/* =============================================================== */
+
+#logo {
+   position: absolute;
+   top: 34px;
+   right: 34px;
+   width: 274px;
+   height: 50px;
+}
+
+/* --------------------------------------------------------------- */
+
+#stripe {
+   position: absolute;
+   top: 115px;
+   left: 0;
+   height: 132px;
+   width: 986px;
+   background: url(img/stripe.gif) repeat-x;
+}
+
+#stripe #strl { position: absolute; top: 0; left: 0; }
+#stripe #strm { position: absolute; top: 0; left: 200px; }
+#stripe #strr { position: absolute; top: 0; left: 474px; }
+
+/* --------------------------------------------------------------- */
+
+#mainnavi {
+   position: absolute;
+   top: 306px;
+   left: 0;
+   width: 196px;
+}
+
+#mainnavi ul {
+   list-style-type: none;
+   color: #4C575F;
+   font-family: trebuchet ms, trebuchet, trebuchetms, arial, sans-serif;
+   font-size: 10px;
+   text-align: right;
+}
+
+#mainnavi ul li {
+   padding-bottom: 13px;
+}
+
+#mainnavi ul li a { color: #00315E; }
+#mainnavi ul li a:hover { color: #874F01; }
+
+#mainnavi ol {
+   list-style-type: none;
+   color: #4C575F;
+   font-family: trebuchet ms, trebuchet, trebuchetms, arial, sans-serif;
+   font-size: 10px;
+   text-align: left;
+   white-space: nowrap;
+   margin-left: 200px;
+}
+
+#mainnavi ol li {
+   padding-bottom: 13px;
+}
+
+#mainnavi ol li a { color: #00315E; }
+#mainnavi ol li a:hover { color: #874F01; }
+
+/* --------------------------------------------------------------- */
+
+#main {
+   position: absolute;
+   top: 304px;
+   left: 406px;
+   color: #00315e;
+}
+
+h1 {
+   font-family: trebuchet ms, trebuchet, trebuchetms, arial, sans-serif;
+   font-size: 18px;
+   font-weight: normal;
+   letter-spacing: 0;
+}
+
+p {
+   font-family: verdana, arial, sans-serif;
+   font-size: 10px;
+   line-height: 14px;
+   padding-top: 25px;
+}
+
+/* --------------------------------------------------------------- */
+
+#impressum {
+   position: absolute;
+   bottom: 22px;
+   right: 30px;
+   color: #4C575F;
+   font-family: trebuchet ms, trebuchet, trebuchetms, arial, sans-serif;
+   font-size: 10px;
+   text-align: right;
+   
+}
+
+#impressum a { color: #00315E; }
+#impressum a:hover { color: #874F01; }
+
+#datenschutz {
+   position: absolute;
+   bottom: 22px;
+   right: 150px;
+   color: #4C575F;
+   font-family: trebuchet ms, trebuchet, trebuchetms, arial, sans-serif;
+   font-size: 10px;
+   text-align: right;
+   
+}
+
+#datenschutz a { color: #00315E; }
+#datenschutz a:hover { color: #874F01; }
+
+/* --------------------------------------------------------------- */
+
+.emaillink a { color: #4c575f; }
+.emaillink a:hover { color: #000000; }
+
+.pdflink a { color: #00315e; }
+.pdflink a:hover { color: #874F01; }
+
+#txtright {
+   position: absolute;
+   top: 252px;
+   left: 547px;
+   color: #4c575f;
+}
+
+#management {
+   position: absolute;
+   top: 360px;
+   left: 220px;
+   width: 650px;
+   color: #4c575f;
+   font-family: verdana, arial, sans-serif;
+   font-size: 10px;
+   line-height: 14px;
+}
+
+.managementnam {
+   position: absolute;
+   top: 73px;
+   left: 0;
+   height: 60px;
+   width: 170px;
+   font-weight: bold;
+   text-align: right;
+}
+
+.managementimg {
+   position: absolute;
+   top: 2px;
+   left: 187px;
+}
+
+.managementtxt {
+   position: absolute;
+   top: 0;
+   left: 340px;
+
+}

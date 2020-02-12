@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:2.1
+N:Draeger;Christian
+FN:Christian Draeger
+ORG:J. H. Berckemeyer & Co. GmbH
+TITLE:Geschaeftsfuehrender Gesellschafter
+TEL;WORK;VOICE:+49 - 40 - 36 00 18-0
+TEL;WORK;FAX:+49 - 40 - 36 00 18-632
+ADR;WORK:;;Hans-Henny-Jahnn-Weg 35;Hamburg;;22085;Deutschland
+LABEL;WORK;ENCODING=QUOTED-PRINTABLE:Hans-Henny-Jahnn-Weg 35=0D=0AHamburg 22085=0D=0ADeutschland
+URL;WORK:http://www.berckemeyer.eu
+EMAIL;PREF;INTERNET:draeger@berckemeyer.eu
+REV:20081124T220006Z
+END:VCARD

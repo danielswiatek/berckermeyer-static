@@ -1,0 +1,5 @@
+#mainnavi ul { font-weight: bold; }
+#mainnavi ol { font-weight: bold; }
+#mainnavi ul li { padding-bottom: 5px; }
+#mainnavi ol li { padding-bottom: 5px; }
+h1 { font-weight: bold; }
