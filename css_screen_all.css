@@ -169,6 +169,47 @@ p {
 #datenschutz a { color: #00315E; }
 #datenschutz a:hover { color: #874F01; }
 
+#nachhaltigkeitserklaerung {
+   position: absolute;
+   bottom: 22px;
+   right: 310px;
+   color: #4C575F;
+   font-family: trebuchet ms, trebuchet, trebuchetms, arial, sans-serif;
+   font-size: 10px;
+   text-align: right;
+   
+}
+
+#nachhaltigkeitserklaerung a { color: #00315E; }
+#nachhaltigkeitserklaerung a:hover { color: #874F01; }
+
+.footer{
+   position: absolute;
+   bottom: 22px;
+   right: 30px;
+   color: #4C575F;
+   font-family: trebuchet ms, trebuchet, trebuchetms, arial, sans-serif;
+   font-size: 10px;
+   text-align: right;
+}
+
+.footer ul {
+   list-style: none;
+   padding: 0;
+}
+
+.footer ul li {
+   float: left;
+   margin-left:15px;
+}
+
+.footer ul li a {
+   color: #00315E;
+}
+.footer ul li a:hover {
+   color: #874F01;
+}
+
 /* --------------------------------------------------------------- */
 
 .emaillink a { color: #4c575f; }
